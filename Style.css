@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+.container :{
+  width: 728%;
+  height: 100%;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: grid;
+}
+
+body { 
+  font-family: futura;
+  color: #096AB0;
+
+}
+
+nav .logo {
+  
+   height: 15%;
+   width: 10.89%;
+ 
+}
+
+nav button {
+  float: right;
+  width: 117px;
+  height: 17px;
+  left: 339px;
+
+}
+nav .logo .one {
+  height: 100%;
+   width: 100%;
+  
+}
+
+nav {
+  width: 82.3%;
+  height: 20.57%;
+   padding-left: 6.7%;
+ padding-top: 6.7%;
+}
+
+
+
+header h1 {
+
+  float: left;
+  margin-top: 23.9%;
+
+  font-family: Futura;
+  font-style: normal;
+  font-weight: bold;
+  width: 28.3%;
+  height: 21.0%
+  color: #096AB0;
+
+}
+
+header img {
+
+  float: right;
+  width: 47.87%;
+  height: 41.76%;
+  margin-right: 5.38%;
+  margin-top: 11.69%;
+
+
+}
+
+
+header {
+   padding-left: 6.7%;
+  width: 82.3%;
+  height: 79.43%;
+
+  
+}
+
+WWD {
+position: absolute;
+width: 987.16px;
+height: 378.24px;
+left: 1036px;
+top: 186px;
+color: #096AB0;
+border: 5px;
+
+}
+
+Expertise {
+  position: absolute;
+width: 1459px;
+height: 242px;
+left: 2193px;
+top: 251px;
+
+}
+#KeyPersonel {
+  position: absolute;
+width: 1145px;
+height: 260px;
+left: 3871px;
+top: 246px;
+}
+
+#AboutUs {
+  position: absolute;
+  width: 1707.01px;
+  height: 246px;
+  left: 5183px;
+  top: 259px;
+
+}
+
+footer {
+  position: absolute;
+  width: 1301px;
+  height: 700px;
+  left: 7080px;
+  top: 0px;
+
+  background-color: #042C71;
+  text-align: left;
+  font-size: 12px;
+  padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
